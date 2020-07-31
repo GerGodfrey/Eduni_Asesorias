@@ -1,0 +1,58 @@
+  /* FALTA VER CUALES SI SE OCUPAN */
+
+  section #Proyectos{
+    font-family: 'Raleway';
+    padding: 20px 0 0;
+    padding-top: 5%;
+    
+  }
+  
+  #Proyectos h2{
+    font-size: 48px;
+    color: #ffffff;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+  }
+#Proyectos .tituloProyectos{
+    text-align: center;
+    font-size: 48px;
+    color: #ffffff;
+}
+#Proyectos .desc{
+    text-align: center;
+    font-size: 20px;
+    color: darkgrey;
+    padding: 40px;
+}
+  .box1{
+    height: 50vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../img/funcionamiento/tomar_asesoria.jpg);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+    font-family:'Raleway';
+  }
+
+  .box2{
+    height: 50vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../../img/funcionamiento/imparte_asesoria.jpg);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+  }
+
+  .box3{
+    height: 50vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../../img/funcionamiento/dona_asesoria.jpg);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+  }

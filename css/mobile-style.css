@@ -1,0 +1,34 @@
+@media only screen and (max-width: 768px){
+    header .navbar-brand{
+        padding-left: 1rem;
+    }
+    .section-1 .row .col-md6 .panel{
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+
+    .section-2 .cover{
+        background-position: -25vmin -10vmin;
+    }
+
+    .section-5 .team{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .section-5 .carousel-inner {
+        width: 26rem;
+        align-content: center;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .section-5 .card{
+        width: 18rem;
+    }
+    .section-5 .carousel-inner{
+        margin-left: -14vmin;
+    }
+}

@@ -1,0 +1,139 @@
+/*GOOGLE FONTS*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+/*animacion para la transicion*/
+html {
+  scroll-behavior: smooth;
+}
+
+/*aplica a todo*/
+*{
+  box-sizing: border-box;
+}
+
+head,
+section{
+  overflow-x:hidden; 
+}
+
+
+
+/*variables*/
+:root{
+  --Snigle-font:"Muli",sans-serif;
+  --Raleway-font: 'Raleway', sans-serif;
+  --light-black:#2e2c2caf;
+  --bggradient:linear-gradient(to bottom,#057AA8, #5388AD);
+  --light-gray: rgba(255,255,255,0.877);
+}
+
+
+.primary-btn {
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+/*estilos de los carruseles*/
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  padding-left: 3rem;
+}
+.mySlides1 {
+  display: none;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+ /* transition: 0.6s ease;*/
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active1, .dot:hover {
+  background-color: #717171;
+}
+
+.nav-item {
+  padding: 0.5em;
+  text-decoration-color: #eee
+} */
+
+
+/*BARRA QUE APARECE DESPUES EN LA PARTE SUPERIOR*/
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* Color del nav */
+nav{
+  background-color: white;
+  box-shadow: 0 3px 3px rgba(0,0,0,.5);
+  font-size: 18px;
+}
+
+
+/*estilo de loa botones usados*/
+.btn-primary
+/*.btn-primary:hover,*/
+{
+    color:white;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #77c9d4;
+    border:#a5a5af;
+    
+}
+.btn-primary:hover{
+background-color: #a5a5af;
+    
+    
+}
+
+
+

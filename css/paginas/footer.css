@@ -1,0 +1,123 @@
+
+footer {
+    /*cambie este color base de contacto*/
+   
+    /* background-color:  #006BA7; */
+    background-color: #292929;
+    color: var(--light-gray);
+    
+
+    /*background: rgba(0, 0, 0, 0.815);*/
+    overflow-x: hidden;
+    padding-top:2rem;
+    /*padding: 14vmin 18vmin;*/
+    font-family: 'Raleway';
+      
+}
+    hr.light{
+        border-top: 1px solid var(--light-gray);
+        width: 75%;
+        margin-top: .8rem;
+        margin-bottom: 1rem;
+    }
+    
+    footer a {
+      color: var(--light-gray);
+        /* color: #d5d5d5; */
+    
+    }
+
+    .bottomSpace{
+      margin-bottom: 25px;
+   }
+    
+    .centerImage {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 45%;
+      
+    }
+    
+    .centerVertical{
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 15px;
+    }
+    
+    .dot {
+      height: 50px;
+      width: 50px;
+      background-color: #4C4D57;
+      border-radius: 50%;
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 5%;
+      margin-right: 5%;
+      
+    }
+
+    .containerMedia{
+      font-size: 16px; 
+      font-weight:bold;
+      justify-content: center;
+      display: flex;
+      vertical-align: middle;
+      padding-bottom: 10px
+    }
+
+    .equalAlign{
+      display:flex; 
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .btnEnviar{
+      background-color: #00324F
+    }
+
+    .btnEnviar:hover{
+      background-color: #006BA7
+    }
+
+    .btnGris{
+      background-color: #4C4D57
+    }
+
+    .btnGris:hover{
+      background-color: #9091A3
+    }
+
+    .fa-facebook-square{
+      color: white
+    }
+
+
+    
+    footer p > span {
+      color: #ff512f;
+    }
+    
+    footer input {
+      border: none !important;
+    }
+    
+    footer input placeholder {
+      color: white !important;
+    }
+    
+    footer .input-group .input-group-text {
+      border: none;
+    }
+     */
+    
+    /* It is Adjacent sibling combinator */
+    
+    footer .column i + i {
+      padding: 0 0.5em;
+    }
+
+
+
+    
